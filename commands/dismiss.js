@@ -1,6 +1,6 @@
 const admin = require('firebase-admin')
 const ora = require('ora')
-const serviceAccount = require('../mochiling-production-firebase-adminsdk-feuvo-17347d9bdc.json')
+const serviceAccount = require('../mochiling-production-firebase-adminsdk-feuvo-6ab7c8cba4.json')
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
